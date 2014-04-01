@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosaic version="1.0">
+  <universe cell_shape="parallelepiped" convention="PDB" id="universe">
+    <symmetry_transformations>
+      <transformation>
+        <rotation>-1 0 0 0 1 0 0 0 -1</rotation>
+        <translation>0 0.5 0</translation>
+      </transformation>
+    </symmetry_transformations>
+    <molecules>
+      <molecule count="2">
+        <fragment label="A,B" polymer_type="polypeptide" species="VAL-GRAMICIDIN_A">
+          <fragments>
+            <fragment label="FVA_1" species="FVA">
+              <atoms>
+                <atom label="C" name="C" type="element"/>
+                <atom label="N" name="N" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+                <atom label="O1" name="O" type="element"/>
+                <atom label="CN" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="O C" order="double"/>
+                <bond atoms="C CA" order="single"/>
+                <bond atoms="N CN" order="single"/>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CB CA" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CN O1" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="GLY_2" species="GLY">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="ALA_3" species="ALA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_4" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="ALA_5" species="ALA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="DVA_6" species="DVA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" nsites="2" type="element"/>
+                <atom label="CB" name="C" nsites="2" type="element"/>
+                <atom label="CG1" name="C" nsites="2" type="element"/>
+                <atom label="CG2" name="C" nsites="2" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="VAL_7" species="VAL">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DVA_8" species="DVA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_9" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_10" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_11" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_12" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_13" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_14" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_15" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="ETA_16" species="ETA">
+              <atoms>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="CA N" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CB O" order="single"/>
+              </bonds>
+            </fragment>
+          </fragments>
+          <bonds>
+            <bond atoms="FVA_1.C GLY_2.N" order="single"/>
+            <bond atoms="GLY_2.C ALA_3.N" order="single"/>
+            <bond atoms="ALA_3.C DLE_4.N" order="single"/>
+            <bond atoms="DLE_4.C ALA_5.N" order="single"/>
+            <bond atoms="ALA_5.C DVA_6.N" order="single"/>
+            <bond atoms="DVA_6.C VAL_7.N" order="single"/>
+            <bond atoms="VAL_7.C DVA_8.N" order="single"/>
+            <bond atoms="DVA_8.C TRP_9.N" order="single"/>
+            <bond atoms="TRP_9.C DLE_10.N" order="single"/>
+            <bond atoms="DLE_10.C TRP_11.N" order="single"/>
+            <bond atoms="TRP_11.C DLE_12.N" order="single"/>
+            <bond atoms="DLE_12.C TRP_13.N" order="single"/>
+            <bond atoms="TRP_13.C DLE_14.N" order="single"/>
+            <bond atoms="DLE_14.C TRP_15.N" order="single"/>
+            <bond atoms="TRP_15.C ETA_16.N" order="single"/>
+          </bonds>
+        </fragment>
+      </molecule>
+      <molecule count="1">
+        <fragment label="C" polymer_type="polypeptide" species="VAL-GRAMICIDIN_A">
+          <fragments>
+            <fragment label="FVA_1" species="FVA">
+              <atoms>
+                <atom label="C" name="C" type="element"/>
+                <atom label="N" name="N" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+                <atom label="O1" name="O" type="element"/>
+                <atom label="CN" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="O C" order="double"/>
+                <bond atoms="C CA" order="single"/>
+                <bond atoms="N CN" order="single"/>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CB CA" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CN O1" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="GLY_2" species="GLY">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="ALA_3" species="ALA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_4" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="ALA_5" species="ALA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="DVA_6" species="DVA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="VAL_7" species="VAL">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" nsites="2" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" nsites="2" type="element"/>
+                <atom label="CG1" name="C" nsites="2" type="element"/>
+                <atom label="CG2" name="C" nsites="2" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DVA_8" species="DVA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" nsites="2" type="element"/>
+                <atom label="CG1" name="C" nsites="2" type="element"/>
+                <atom label="CG2" name="C" nsites="2" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_9" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_10" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_11" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_12" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_13" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_14" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_15" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="ETA_16" species="ETA">
+              <atoms>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="CA N" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CB O" order="single"/>
+              </bonds>
+            </fragment>
+          </fragments>
+          <bonds>
+            <bond atoms="FVA_1.C GLY_2.N" order="single"/>
+            <bond atoms="GLY_2.C ALA_3.N" order="single"/>
+            <bond atoms="ALA_3.C DLE_4.N" order="single"/>
+            <bond atoms="DLE_4.C ALA_5.N" order="single"/>
+            <bond atoms="ALA_5.C DVA_6.N" order="single"/>
+            <bond atoms="DVA_6.C VAL_7.N" order="single"/>
+            <bond atoms="VAL_7.C DVA_8.N" order="single"/>
+            <bond atoms="DVA_8.C TRP_9.N" order="single"/>
+            <bond atoms="TRP_9.C DLE_10.N" order="single"/>
+            <bond atoms="DLE_10.C TRP_11.N" order="single"/>
+            <bond atoms="TRP_11.C DLE_12.N" order="single"/>
+            <bond atoms="DLE_12.C TRP_13.N" order="single"/>
+            <bond atoms="TRP_13.C DLE_14.N" order="single"/>
+            <bond atoms="DLE_14.C TRP_15.N" order="single"/>
+            <bond atoms="TRP_15.C ETA_16.N" order="single"/>
+          </bonds>
+        </fragment>
+      </molecule>
+      <molecule count="1">
+        <fragment label="D" polymer_type="polypeptide" species="VAL-GRAMICIDIN_A">
+          <fragments>
+            <fragment label="FVA_1" species="FVA">
+              <atoms>
+                <atom label="C" name="C" type="element"/>
+                <atom label="N" name="N" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+                <atom label="O1" name="O" type="element"/>
+                <atom label="CN" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="O C" order="double"/>
+                <bond atoms="C CA" order="single"/>
+                <bond atoms="N CN" order="single"/>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CB CA" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CN O1" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="GLY_2" species="GLY">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="ALA_3" species="ALA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_4" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="ALA_5" species="ALA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="DVA_6" species="DVA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="VAL_7" species="VAL">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DVA_8" species="DVA">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG1" name="C" type="element"/>
+                <atom label="CG2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG1" order="single"/>
+                <bond atoms="CB CG2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_9" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" nsites="2" type="element"/>
+                <atom label="CG" name="C" nsites="2" type="element"/>
+                <atom label="CD1" name="C" nsites="2" type="element"/>
+                <atom label="CD2" name="C" nsites="2" type="element"/>
+                <atom label="NE1" name="N" nsites="2" type="element"/>
+                <atom label="CE2" name="C" nsites="2" type="element"/>
+                <atom label="CE3" name="C" nsites="2" type="element"/>
+                <atom label="CZ2" name="C" nsites="2" type="element"/>
+                <atom label="CZ3" name="C" nsites="2" type="element"/>
+                <atom label="CH2" name="C" nsites="2" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_10" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_11" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_12" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_13" species="TRP">
+              <atoms>
+                <atom label="N" name="N" nsites="2" type="element"/>
+                <atom label="CA" name="C" nsites="2" type="element"/>
+                <atom label="C" name="C" nsites="2" type="element"/>
+                <atom label="O" name="O" nsites="2" type="element"/>
+                <atom label="CB" name="C" nsites="2" type="element"/>
+                <atom label="CG" name="C" nsites="2" type="element"/>
+                <atom label="CD1" name="C" nsites="2" type="element"/>
+                <atom label="CD2" name="C" nsites="2" type="element"/>
+                <atom label="NE1" name="N" nsites="2" type="element"/>
+                <atom label="CE2" name="C" nsites="2" type="element"/>
+                <atom label="CE3" name="C" nsites="2" type="element"/>
+                <atom label="CZ2" name="C" nsites="2" type="element"/>
+                <atom label="CZ3" name="C" nsites="2" type="element"/>
+                <atom label="CH2" name="C" nsites="2" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="DLE_14" species="DLE">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="single"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="C O" order="double"/>
+              </bonds>
+            </fragment>
+            <fragment label="TRP_15" species="TRP">
+              <atoms>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="CG" name="C" type="element"/>
+                <atom label="CD1" name="C" type="element"/>
+                <atom label="CD2" name="C" type="element"/>
+                <atom label="NE1" name="N" type="element"/>
+                <atom label="CE2" name="C" type="element"/>
+                <atom label="CE3" name="C" type="element"/>
+                <atom label="CZ2" name="C" type="element"/>
+                <atom label="CZ3" name="C" type="element"/>
+                <atom label="CH2" name="C" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CB CG" order="single"/>
+                <bond atoms="CG CD1" order="double"/>
+                <bond atoms="CG CD2" order="single"/>
+                <bond atoms="CD1 NE1" order="single"/>
+                <bond atoms="CD2 CE2" order="double"/>
+                <bond atoms="CD2 CE3" order="single"/>
+                <bond atoms="NE1 CE2" order="single"/>
+                <bond atoms="CE2 CZ2" order="single"/>
+                <bond atoms="CE3 CZ3" order="double"/>
+                <bond atoms="CZ2 CH2" order="double"/>
+                <bond atoms="CZ3 CH2" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="ETA_16" species="ETA">
+              <atoms>
+                <atom label="CA" name="C" nsites="2" type="element"/>
+                <atom label="N" name="N" nsites="2" type="element"/>
+                <atom label="CB" name="C" nsites="2" type="element"/>
+                <atom label="O" name="O" nsites="2" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="CA N" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CB O" order="single"/>
+              </bonds>
+            </fragment>
+          </fragments>
+          <bonds>
+            <bond atoms="FVA_1.C GLY_2.N" order="single"/>
+            <bond atoms="GLY_2.C ALA_3.N" order="single"/>
+            <bond atoms="ALA_3.C DLE_4.N" order="single"/>
+            <bond atoms="DLE_4.C ALA_5.N" order="single"/>
+            <bond atoms="ALA_5.C DVA_6.N" order="single"/>
+            <bond atoms="DVA_6.C VAL_7.N" order="single"/>
+            <bond atoms="VAL_7.C DVA_8.N" order="single"/>
+            <bond atoms="DVA_8.C TRP_9.N" order="single"/>
+            <bond atoms="TRP_9.C DLE_10.N" order="single"/>
+            <bond atoms="DLE_10.C TRP_11.N" order="single"/>
+            <bond atoms="TRP_11.C DLE_12.N" order="single"/>
+            <bond atoms="DLE_12.C TRP_13.N" order="single"/>
+            <bond atoms="TRP_13.C DLE_14.N" order="single"/>
+            <bond atoms="DLE_14.C TRP_15.N" order="single"/>
+            <bond atoms="TRP_15.C ETA_16.N" order="single"/>
+          </bonds>
+        </fragment>
+      </molecule>
+      <molecule count="1">
+        <fragment label="MVC" species="MVC">
+          <atoms>
+            <atom label="C17" name="C" type="element"/>
+            <atom label="C9" name="C" type="element"/>
+            <atom label="C8" name="C" type="element"/>
+            <atom label="C16" name="C" type="element"/>
+            <atom label="C10" name="C" type="element"/>
+            <atom label="C7" name="C" type="element"/>
+            <atom label="C24" name="C" type="element"/>
+            <atom label="C15" name="C" type="element"/>
+            <atom label="C11" name="C" type="element"/>
+            <atom label="C6" name="C" type="element"/>
+            <atom label="C14" name="C" type="element"/>
+            <atom label="C12" name="C" type="element"/>
+            <atom label="C5" name="C" type="element"/>
+            <atom label="C13" name="C" type="element"/>
+            <atom label="C4" name="C" type="element"/>
+            <atom label="C3" name="C" type="element"/>
+            <atom label="C21" name="C" type="element"/>
+            <atom label="C22" name="C" type="element"/>
+            <atom label="O19" name="O" type="element"/>
+            <atom label="C1" name="C" type="element"/>
+            <atom label="O25" name="O" type="element"/>
+            <atom label="O23" name="O" type="element"/>
+            <atom label="O20" name="O" type="element"/>
+          </atoms>
+          <bonds>
+            <bond atoms="C10 C9" order="single"/>
+            <bond atoms="C10 C11" order="single"/>
+            <bond atoms="C9 C8" order="single"/>
+            <bond atoms="C17 C16" order="single"/>
+            <bond atoms="C11 C12" order="single"/>
+            <bond atoms="C8 C7" order="single"/>
+            <bond atoms="C24 C22" order="single"/>
+            <bond atoms="C24 O25" order="single"/>
+            <bond atoms="C16 C15" order="single"/>
+            <bond atoms="C12 C13" order="double"/>
+            <bond atoms="C7 C6" order="single"/>
+            <bond atoms="C15 C14" order="single"/>
+            <bond atoms="C13 C14" order="single"/>
+            <bond atoms="C6 C5" order="single"/>
+            <bond atoms="C5 C4" order="single"/>
+            <bond atoms="C4 C3" order="single"/>
+            <bond atoms="C3 C1" order="single"/>
+            <bond atoms="C21 C22" order="single"/>
+            <bond atoms="C21 O20" order="single"/>
+            <bond atoms="C22 O23" order="single"/>
+            <bond atoms="O19 C1" order="double"/>
+            <bond atoms="O25 C1" order="single"/>
+          </bonds>
+        </fragment>
+      </molecule>
+      <molecule count="1">
+        <fragment label="MVC" species="MVC">
+          <atoms>
+            <atom label="C24" name="C" type="element"/>
+            <atom label="C5" name="C" type="element"/>
+            <atom label="C4" name="C" type="element"/>
+            <atom label="C3" name="C" type="element"/>
+            <atom label="C21" name="C" type="element"/>
+            <atom label="C22" name="C" type="element"/>
+            <atom label="O19" name="O" type="element"/>
+            <atom label="C1" name="C" type="element"/>
+            <atom label="O25" name="O" type="element"/>
+            <atom label="O23" name="O" type="element"/>
+            <atom label="O20" name="O" type="element"/>
+          </atoms>
+          <bonds>
+            <bond atoms="C24 C22" order="single"/>
+            <bond atoms="C24 O25" order="single"/>
+            <bond atoms="C5 C4" order="single"/>
+            <bond atoms="C4 C3" order="single"/>
+            <bond atoms="C3 C1" order="single"/>
+            <bond atoms="C21 C22" order="single"/>
+            <bond atoms="C21 O20" order="single"/>
+            <bond atoms="C22 O23" order="single"/>
+            <bond atoms="O19 C1" order="double"/>
+            <bond atoms="O25 C1" order="single"/>
+          </bonds>
+        </fragment>
+      </molecule>
+      <molecule count="1">
+        <fragment label="MVC" species="MVC">
+          <atoms>
+            <atom label="C24" name="C" type="element"/>
+            <atom label="C4" name="C" type="element"/>
+            <atom label="C3" name="C" type="element"/>
+            <atom label="C21" name="C" type="element"/>
+            <atom label="C22" name="C" type="element"/>
+            <atom label="O19" name="O" type="element"/>
+            <atom label="C1" name="C" type="element"/>
+            <atom label="O25" name="O" type="element"/>
+            <atom label="O23" name="O" type="element"/>
+            <atom label="O20" name="O" type="element"/>
+          </atoms>
+          <bonds>
+            <bond atoms="C24 C22" order="single"/>
+            <bond atoms="C24 O25" order="single"/>
+            <bond atoms="C4 C3" order="single"/>
+            <bond atoms="C3 C1" order="single"/>
+            <bond atoms="C21 C22" order="single"/>
+            <bond atoms="C21 O20" order="single"/>
+            <bond atoms="C22 O23" order="single"/>
+            <bond atoms="O19 C1" order="double"/>
+            <bond atoms="O25 C1" order="single"/>
+          </bonds>
+        </fragment>
+      </molecule>
+      <molecule count="2">
+        <fragment label="HOH" species="HOH">
+          <atoms>
+            <atom label="O" name="O" type="element"/>
+          </atoms>
+        </fragment>
+      </molecule>
+    </molecules>
+  </universe>
+  <configuration id="configuration">
+    <universe ref="universe"/>
+    <cell_parameters shape="3 3">2.395999908 0 0 2.570594911e-16 4.19810009 0 -0.9616546631 2.574547114e-16 3.097034216</cell_parameters>
+    <positions type="float32">0.7142999768 -1.533100009 -2.578999996 0.6858000159 -1.401900053 -2.773000002 0.6855000257 -1.437600017 -2.506000042 0.7680000067 -1.508399963 -2.719399929 0.9161000252 -1.465399981 -2.713399887 1.002900004 -1.565400004 -2.635299921 0.9708999991 -1.449000001 -2.852600098 0.6556000113 -1.500800014 -2.974999905 0.6384999752 -1.404700041 -2.898099899 0.6930999756 -1.659600019 -2.54369998 0.6542000175 -1.692100048 -2.408400059 0.5062000155 -1.674100041 -2.403100014 0.4386999905 -1.689100027 -2.503400087 0.4575999975 -1.625499964 -2.289000034 0.3142000139 -1.61590004 -2.264400005 0.2809999883 -1.506899953 -2.159300089 0.3551999927 -1.490399957 -2.062900066 0.2621000111 -1.749600053 -2.217499971 0.1661999971 -1.439900041 -2.171999931 0.125 -1.34860003 -2.066299915 -0.02490000054 -1.346199989 -2.0546 -0.08359999955 -1.471199989 -1.994300008 -0.06300000101 -1.460899949 -1.840499997 -0.2295999974 -1.472300053 -2.034100056 0.1676999927 -1.207599998 -2.099900007 0.1609999985 -1.165899992 -2.216700077 0.2061000019 -1.130699992 -1.998399973 0.2527999878 -0.9963999987 -2.025000095 0.3452000022 -0.962199986 -1.910699964 0.3009000123 -0.9071000218 -1.809599996 0.1343999952 -0.8956000209 -2.029700041 0.4731999934 -0.9965999722 -1.922000051 0.5654000044 -0.962100029 -1.815400004 0.5705000162 -0.9610000253 -1.819800019 0.6758999825 -0.8657000065 -1.860999942 0.6879000068 -0.8841999769 -1.880900025 0.6136000156 -0.7343999743 -1.916900039 0.799399972 -0.8690000176 -1.779000044 0.7694000006 -0.9300000072 -1.963799953 0.6413000226 -0.7465000153 -1.932999969 0.6237000227 -1.08829999 -1.754699945 0.6324999928 -1.190500021 -1.818300009 0.6572999954 -1.080299973 -1.627200007 0.7232999802 -1.187899947 -1.556699991 0.6643999815 -1.196400046 -1.414700031 0.6693999767 -1.098999977 -1.336899996 0.877300024 -1.159700036 -1.548400044 0.9387999773 -1.243000031 -1.437299967 0.9477999806 -1.187700033 -1.688199997 0.6159999967 -1.314200044 -1.37469995 0.5727999806 -1.34070003 -1.238499999 0.5853000283 -1.493600011 -1.209800005 0.521600008 -1.527999997 -1.073799968 0.7289000154 -1.533800006 -1.21449995 0.425999999 -1.303599954 -1.215800047 0.3375999928 -1.343299985 -1.297600031 0.3986999989 -1.226600051 -1.107800007 0.2646999955 -1.175500035 -1.082900047 0.2764999866 -1.056599975 -0.9893000126 0.3037 -1.073699951 -0.8671000004 0.1730999947 -1.279700041 -1.014099956 0.02690000087 -1.231299996 -0.9898999929 -0.06270000339 -1.185600042 -1.083099961 -0.03950000182 -1.220000029 -0.8626000285 -0.1835000068 -1.154700041 -1.020499945 -0.1694000065 -1.173799992 -0.885800004 -0.003100000089 -1.251600027 -0.7336999774 -0.2626000047 -1.153399944 -0.7817999721 -0.09730000049 -1.235700011 -0.6302000284 -0.2255000025 -1.189399958 -0.6560000181 0.2536999881 -0.9376000166 -1.043900013 0.2498999983 -0.8176000118 -0.9596999884 0.1071999967 -0.7569000125 -0.9611999989 0.003700000001 -0.8518999815 -0.9000999928 -0.1318999976 -0.784799993 -0.9139000177 0.02559999935 -0.8784999847 -0.747600019 0.34830001 -0.7129999995 -1.006399989 0.3612999916 -0.6863999963 -1.125800014 0.4122000039 -0.6457999945 -0.909799993 0.4916000068 -0.5292999744 -0.9397000074 0.5828999877 -0.5078999996 -0.8198999763 0.5453000069 -0.4377000034 -0.7239999771 0.3955999911 -0.4117999971 -0.9542000294 0.4530999959 -0.2845000029 -0.9991999865 0.543900013 -0.2064999938 -0.9309999943 0.407400012 -0.2036000043 -1.110999942 0.5638999939 -0.0876000002 -0.9981999993 0.4815999866 -0.08280000091 -1.108500004 0.3170000017 -0.2251999974 -1.213799953 0.4623000026 0.02089999989 -1.202200055 0.3027999997 -0.1297000051 -1.31099999 0.3732999861 -0.003800000064 -1.303300023 0.7009999752 -0.5698000193 -0.8259000182 0.7976999879 -0.5544999838 -0.7163000107 0.9319999814 -0.5062000155 -0.7710000277 0.9355000257 -0.3605999947 -0.815599978 0.9230999947 -0.2725000083 -0.6868000031 1.067199945 -0.3319000006 -0.8945999742 0.8213999867 -0.6843000054 -0.6438000202 0.8370000124 -0.7890999913 -0.7046999931 0.825699985 -0.6754000187 -0.5110999942 0.8657000065 -0.7899000049 -0.4302999973 0.8086000085 -0.7749000192 -0.2863999903 0.8705999851 -0.709100008 -0.2034000009 1.020099998 -0.8015000224 -0.4298999906 1.066799998 -0.9284999967 -0.3761000037 1.089400053 -0.9603999853 -0.2460000068 1.083699942 -1.047799945 -0.4523999989 1.12530005 -1.095299959 -0.2365999967 1.12469995 -1.149600029 -0.3632000089 1.074300051 -1.075999975 -0.5889000297 1.149500012 -1.281000018 -0.4063999951 1.102300048 -1.206599951 -0.63349998 1.138599992 -1.307000041 -0.5404999852 0.6880000234 -0.8238000274 -0.2617999911 0.6351000071 -0.828700006 -0.1238999963 0.6277999878 -0.9751999974 -0.07970000058 0.7621999979 -1.047700047 -0.07159999758 0.7350999713 -1.199699998 -0.05590000004 0.8482999802 -0.9933999777 0.04149999842 0.4930000007 -0.7667000294 -0.1141000018 0.4072999954 -0.8018000126 -0.1960999966 0.4722000062 -0.6762999892 -0.01840000041 0.3398000002 -0.6168000102 0.01059999969 0.3601999879 -0.4930000007 0.09629999846 0.356099993 -0.4972000122 0.2184000015 0.2486000061 -0.7170000076 0.08370000124 0.09830000252 -0.6699000001 0.0802000016 0.02869999968 -0.6021999717 0.1790000051 0.007199999876 -0.6837999821 -0.02920000069 -0.0998999998 -0.5738999844 0.1351999938 -0.1159000024 -0.625 0.009700000286 0.01649999991 -0.7430999875 -0.1548999995 -0.2285999954 -0.6241000295 -0.07400000095 -0.09839999676 -0.7444999814 -0.2400999963 -0.2171999961 -0.6826000214 -0.1987999976 0.4083000124 -0.2547000051 0.07050000131 0.3921000063 -0.3898000121 0.02019999921 0.5572999716 -0.2172999978 0.08049999923 0.5802000165 -0.1613000035 -0.05350000039 0.7634999752 -0.5694000125 0.2196999937 0.5914000273 -0.4823000133 0.3632999957 0.6934999824 -0.5762000084 0.1199000031 0.69599998 -0.5799000263 0.3589999974 0.6277999878 -0.7148000002 0.3763999939 0.7189000249 -0.8296999931 0.3434000015 0.5666999817 -0.7224000096 0.523999989 0.69599998 -0.3504999876 0.5073000193 0.6014999747 -0.3695000112 0.4293000102 0.8944000006 -0.5433999896 0.2114000022 0.9585999846 -0.5339000225 0.07800000161 0.9162999988 -0.4097000062 0.003599999938 0.9178000093 -0.3037 0.05840000138 0.8863000274 -0.4217999876 -0.1265999973 0.8542000055 -0.3046000004 -0.207100004 0.7447999716 -0.3474999964 -0.3068000078 0.766200006 -0.4352999926 -0.391200006 0.9778000116 -0.2592000067 -0.2815999985 0.6305000186 -0.2811999917 -0.3009000123 0.5291000009 -0.2946999967 -0.407099992 0.4485000074 -0.1609999985 -0.4131000042 0.3104999959 -0.1712000072 -0.4869999886 0.2167000026 -0.04879999906 -0.4562999904 0.3488999903 -0.1714999974 -0.6292999983 0.4345000088 -0.4088999927 -0.3711000085 0.3894000053 -0.4153999984 -0.2535000145 0.4018000066 -0.4982999861 -0.4638000131 0.3030000031 -0.6050000191 -0.4374000132 0.3393000066 -0.7204999924 -0.5267999768 0.3522000015 -0.703700006 -0.6492999792 0.1592999995 -0.554700017 -0.4740999937 0.3400999904 -0.8382999897 -0.4686999917 0.3508999944 -0.9656000137 -0.5446000099 0.3504000008 -0.9611999989 -0.5476999879 0.2867999971 -1.086300015 -0.4693000019 0.2705000043 -1.076599956 -0.4799999893 0.3664000034 -1.122599959 -0.3443999887 0.3143000007 -1.213099957 -0.5281999707 0.1409000009 -1.055899978 -0.434799999 0.2752999961 -1.064900041 -0.3278999925 0.4986000061 -0.9932000041 -0.5777000189 0.5888000131 -0.9542999864 -0.4986999929 0.5257999897 -1.054100037 -0.6924999952 0.6639999747 -1.083699942 -0.7258999944 0.6812000275 -1.065400004 -0.8776999712 0.6234999895 -1.139999986 -0.956099987 0.7092999816 -1.227300048 -0.6826999784 0.7271000147 -1.235700011 -0.5304999948 0.6136999726 -1.332599998 -0.7271000147 0.7677000165 -0.9735000134 -0.9180999994 0.8019000292 -0.962199986 -1.059800029 0.9541000128 -0.9693999887 -1.084200025 1.005900025 -1.108899951 -1.031700015 1.021600008 -0.8600000143 -1.011199951 0.7480999827 -0.8334000111 -1.116099954 0.7465000153 -0.7293000221 -1.048900008 0.706799984 -0.8377000093 -1.242200017 0.6510000229 -0.7210999727 -1.30400002 0.5616999865 -0.7703999877 -1.413400054 0.6100000143 -0.8050000072 -1.521199942 0.7588999867 -0.6288999915 -1.361299992 0.7034000158 -0.4909999967 -1.389899969 0.6733000278 -0.3921000063 -1.298799992 0.6638000011 -0.4408999979 -1.517199993 0.6205000281 -0.2813999951 -1.363299966 0.6093999743 -0.3100999892 -1.496600032 0.6675999761 -0.4927000105 -1.647400022 0.5587999821 -0.2317000031 -1.601099968 0.6177999973 -0.413199991 -1.753100038 0.5659000278 -0.2836000025 -1.728500009 0.4305999875 -0.7628999949 -1.388700008 0.3303000033 -0.8033000231 -1.491000056 0.2176000029 -0.7005000114 -1.501899958 0.2709999979 -0.5622000098 -1.549299955 0.1696999967 -0.4566000104 -1.527899981 0.3041000068 -0.5752000213 -1.693899989 0.2711000144 -0.9373999834 -1.451099992 0.2426999956 -0.9613000154 -1.331500053 0.2572999895 -1.028699994 -1.548699975 0.1825000048 -1.152799964 -1.523900032 0.2334000021 -1.258000016 -1.62590003 0.2300000042 -1.236500025 -1.749899983 0.03339999914 -1.12559998 -1.543300033 -0.05719999969 -1.23239994 -1.494899988 -0.03119999915 -1.32980001 -1.401100039 -0.1951999962 -1.246999979 -1.531800032 -0.1455000043 -1.406499982 -1.379699945 -0.247299999 -1.35710001 -1.457900047 -0.2793000042 -1.17869997 -1.621399999 -0.3813999891 -1.400500059 -1.471199989 -0.4138999879 -1.221099973 -1.633900046 -0.4623999894 -1.33099997 -1.558599949 0.2924000025 -1.365100026 -1.573500037 0.3273999989 -1.482900023 -1.657899976 0.293900013 -1.610999942 -1.580500007 0.3161000013 -1.741700053 -1.658200026 0.2772000134 -1.856299996 -1.563300014 0.2387000024 -1.747099996 -1.79610002 0.4744000137 -1.486500025 -1.689800024 0.5557000041 -1.483800054 -1.59800005 0.5088000298 -1.506500006 -1.817100048 0.6470000148 -1.517500043 -1.858399987 0.6554999948 -1.485200047 -2.006500006 0.6583999991 -1.577600002 -2.090899944 0.7042999864 -1.660899997 -1.833500028 0.8513000011 -1.670099974 -1.850999951 0.918299973 -1.72360003 -1.959200025 0.9509000182 -1.631700039 -1.758999944 1.053599954 -1.709800005 -1.941900015 1.075799942 -1.661200047 -1.816300035 0.9473999739 -1.579900026 -1.630100012 1.194800019 -1.63530004 -1.752099991 1.068300009 -1.557299972 -1.564399958 1.188899994 -1.584599972 -1.625399947 0.6678000093 -1.356099963 -2.040400028 0.6872000098 -1.32249999 -2.183099985 0.8216000199 -1.257500052 -2.207000017 0.9453999996 -1.332900047 -2.154799938 1.07190001 -1.247799993 -2.16170001 0.9587000012 -1.463799953 -2.235300064 0.5760999918 -1.229500055 -2.23210001 0.5202000141 -1.151499987 -2.153399944 0.5358999968 -1.245300055 -2.357800007 0.4334999919 -1.158300042 -2.414599895 0.3546000123 -1.233100057 -2.523400068 0.4101999998 -1.266499996 -2.628000021 0.5037000179 -1.037700057 -2.474499941 0.4122000039 -0.932099998 -2.513600111 0.3571000099 -0.912899971 -2.638499975 0.3601999879 -0.8299000263 -2.430099964 0.2718999982 -0.8048999906 -2.635900021 0.2727000117 -0.7513999939 -2.509399891 0.3786999881 -0.7957000136 -2.296299934 0.2050999999 -0.6406999826 -2.458600044 0.3088000119 -0.6866999865 -2.244899988 0.2214999944 -0.611800015 -2.325999975 0.1787 -1.354200006 -2.563800097 0.2307000011 -1.247300029 -2.479000092 0.03460000083 -1.387599945 -2.518599987 0.04019999877 -1.487900019 -2.411499977 -0.5500000119 -0.005799999926 -2.829699993 -0.6324999928 0.1675000042 -2.982599974 -0.5530999899 0.08060000092 -2.7427001 -0.5656999946 0.0353000015 -2.976799965 -0.4255999923 0.04670000076 -3.045300007 -0.4469999969 0.08240000159 -3.19720006 -0.3336000144 0.1507000029 -2.97390008 -0.7973999977 0.09889999777 -3.122400045 -0.7423999906 0.1886000037 -3.056699991 -0.5230000019 -0.131099999 -2.80279994 -0.4923999906 -0.1708000004 -2.664099932 -0.3605999947 -0.1137000024 -2.613800049 -0.266200006 -0.08579999954 -2.690399885 -0.3510999978 -0.09700000286 -2.481300116 -0.2257000059 -0.04679999873 -2.425600052 -0.1958999932 -0.1238999963 -2.296999931 -0.2815999985 -0.1366000026 -2.206799984 -0.2363000065 0.1023999974 -2.394500017 -0.07440000027 -0.1754000038 -2.28760004 -0.03680000082 -0.2569000125 -2.17140007 0.1133999974 -0.291200012 -2.171700001 0.1773999929 -0.3540000021 -2.048000097 0.3282000124 -0.3684999943 -2.084599972 0.1723999977 -0.2492000014 -1.937100053 -0.1181000024 -0.3853000104 -2.156399965 -0.1409000009 -0.4600999951 -2.253200054 -0.167899996 -0.4119000137 -2.034499884 -0.2469000071 -0.5314000249 -2.009399891 -0.3296999931 -0.5116999745 -1.884299994 -0.27669999 -0.5245000124 -1.774199963 -0.1562999934 -0.6610999703 -1.990399957 -0.4593999982 -0.4902000129 -1.902999997 -0.5532000065 -0.4803000093 -1.790500045 -0.6425999999 -0.6024000049 -1.777099967 -0.7293999791 -0.6233000159 -1.901499987 -0.560199976 -0.7267000079 -1.748600006 -0.6396999955 -0.3547999859 -1.802399993 -0.6475999951 -0.2917000055 -1.906999946 -0.6855000257 -0.3095000088 -1.687999964 -0.7597000003 -0.1859000027 -1.675899982 -0.7502999902 -0.181400001 -1.679100037 -0.7179999948 -0.1167000011 -1.545400023 -0.7423999906 -0.1720000058 -1.436800003 -0.9089000225 -0.2214999944 -1.668799996 -0.9017000198 -0.192900002 -1.698400021 -0.9950000048 -0.1005000025 -1.631600022 -0.959100008 -0.3016000092 -1.608399987 -0.9532999992 -0.2806999981 -1.802099943 -0.9678999782 -0.05700000003 -1.677299976 -0.6575000286 9.999999747e-05 -1.554299951 -0.6205999851 0.07029999793 -1.432800055 -0.613499999 0.2228000015 -1.462800026 -0.6175000072 0.2213000059 -1.452900052 -0.5647000074 0.3005000055 -1.343400002 -0.6004999876 0.2903999984 -1.318899989 -0.5242000222 0.2495000064 -1.583600044 -0.7448999882 0.2653999925 -1.521000028 -0.4862000048 0.01779999956 -1.385699987 -0.3923999965 0.008700000122 -1.464599967 -0.4726999998 -0.004300000146 -1.254600048 -0.3447999954 -0.04729999974 -1.202800035 -0.3643999994 -0.1261000037 -1.075299978 -0.4056000113 -0.06870000064 -0.9721000195 -0.2633000016 0.0773999989 -1.169399977 -0.1299999952 0.04919999838 -1.110000014 -0.02370000072 -0.01370000001 -1.172399998 -0.07909999788 0.1004000008 -0.9844999909 0.08649999648 -0.01389999967 -1.085199952 0.05490000173 0.05669999868 -0.9728999734 -0.1354999989 0.1754000038 -0.8799999952 0.135800004 0.08640000224 -0.8596000075 -0.05380000174 0.204400003 -0.7670000196 0.07779999822 0.1615000069 -0.7602000237 -0.3298000097 -0.2561999857 -1.075000048 -0.3230000138 -0.3307000101 -0.9481999874 -0.1768999994 -0.3815000057 -0.9283999801 -0.07760000229 -0.2709999979 -0.9113000035 0.05829999968 -0.3352999985 -0.9214000106 -0.1005999967 -0.2145999968 -0.7734000087 -0.4074999988 -0.4559000134 -0.9623000026 -0.3977999985 -0.5311999917 -1.06400001 -0.4788999856 -0.4893999994 -0.8549000025 -0.5569999814 -0.6137999892 -0.8554999828 -0.6632000208 -0.5968000293 -0.7462999821 -0.6445999742 -0.6445000172 -0.6333000064 -0.4690999985 -0.7329000235 -0.8177999854 -0.5304999948 -0.8671000004 -0.8540999889 -0.6025999784 -0.9498999715 -0.7717999816 -0.5141999722 -0.9383000135 -0.9782000184 -0.6328999996 -1.068799973 -0.8378000259 -0.5791000128 -1.063599944 -0.9639000297 -0.4474999905 -0.9096000195 -1.099099994 -0.5799999833 -1.159100056 -1.066499949 -0.4481000006 -1.006299973 -1.200999975 -0.5135999918 -1.129299998 -1.183099985 -0.7674999833 -0.5214999914 -0.7809000015 -0.8738999963 -0.4916999936 -0.6805999875 -1.008200049 -0.5521000028 -0.7250999808 -1.014999986 -0.7045999765 -0.7245000005 -1.148399949 -0.7468000054 -0.7897999883 -1.012699962 -0.7529000044 -0.5831999779 -0.8939999938 -0.3424000144 -0.6593999863 -0.8899999857 -0.2628000081 -0.7569000125 -0.9179000258 -0.3016000092 -0.5322999954 -0.9653999805 -0.1648000032 -0.508400023 -0.9319999814 -0.136800006 -0.3652999997 -1.014299989 -0.1652999967 -0.2736999989 -1.118399978 -0.1548999995 -0.5340999961 -1.156999946 -0.009700000286 -0.5372999907 -1.201200008 0.06440000236 -0.4338000119 -1.146900058 0.07829999924 -0.6510999799 -1.223899961 0.1942999959 -0.4749000072 -1.185799956 0.2065999955 -0.6072999835 -1.101600051 0.0615000017 -0.7850000262 -1.182999969 0.3208999932 -0.6934999824 -1.100700021 0.1758999974 -0.8741999865 -1.146299958 0.3019999862 -0.8274000287 -0.8108999729 -0.08609999716 -0.3418000042 -0.773999989 -0.04050000012 -0.2074999958 -0.7617999911 0.1118000001 -0.2034000009 -0.8884999752 0.1871999949 -0.2460000068 -0.9995999932 0.1785999984 -0.1428000033 -0.8601999879 0.3323999941 -0.2741999924 -0.6425999999 -0.1006999984 -0.1659000069 -0.5472000241 -0.1000000015 -0.2444999963 -0.6377999783 -0.152700007 -0.04430000111 -0.513100028 -0.212500006 0.00829999987 -0.5451999903 -0.2980000079 0.1298000067 -0.5609999895 -0.2456 0.2426999956 -0.4180999994 -0.09950000048 0.0474999994 -0.2797999978 -0.1521999985 0.07460000366 -0.2282000035 -0.191200003 0.1968999952 -0.1794999987 -0.180399999 -0.02290000021 -0.09589999914 -0.2331999987 0.1808000058 -0.06490000337 -0.2299000025 0.04729999974 -0.1743000001 -0.1675000042 -0.1614000052 0.05209999904 -0.2680999935 -0.01930000074 -0.05669999868 -0.202000007 -0.2264000028 0.05389999971 -0.2520999908 -0.1551000029 -0.6179000139 -0.5303999782 0.1728000045 -0.5590000153 -0.4244999886 0.08980000019 -0.7178999782 -0.6197000146 0.09229999781 -0.7864000201 -0.6924999952 0.1967999935 -0.9563000202 -0.1581999958 0.1933999956 -0.7911999822 -0.1552000046 0.3725999892 -0.8669999838 -0.202000007 0.1158000007 -0.9186000228 -0.09619999677 0.3294999897 -0.9052000046 0.05689999834 0.3091000021 -0.872600019 0.1262000054 0.4415000081 -0.7925999761 0.09000000358 0.2025000006 -0.8601999879 -0.1727000028 0.5863000154 -0.7810999751 -0.2090999931 0.4945000112 -1.086599946 -0.1688999981 0.1647000015 -1.130499959 -0.2284999937 0.03409999982 -1.087900043 -0.3765000105 0.01970000006 -1.097300053 -0.453700006 0.1162 -1.040300012 -0.4180000126 -0.09969999641 -1.014199972 -0.5546000004 -0.1315000057 -0.9014999866 -0.5586000085 -0.2308000028 -0.9003000259 -0.4830000103 -0.3244999945 -1.139299989 -0.6193000078 -0.1981000006 -0.804799974 -0.6452999711 -0.2046000063 -0.6916000247 -0.6621000171 -0.2980999947 -0.619599998 -0.7893000245 -0.2585000098 -0.684400022 -0.8952999711 -0.347299993 -0.5889999866 -1.011399984 -0.358799994 -0.8216000199 -0.9377999902 -0.292899996 -0.5975999832 -0.5415999889 -0.287499994 -0.5649999976 -0.4934000075 -0.1756000072 -0.5580000281 -0.4887999892 -0.4029000103 -0.4605999887 -0.3792000115 -0.405099988 -0.4736000001 -0.2861999869 -0.5230000019 -0.4988999963 -0.3321999907 -0.6373000145 -0.3163000047 -0.4357999861 -0.3995000124 -0.4661999941 -0.1568000019 -0.4981000125 -0.456099987 -0.06409999728 -0.6112999916 -0.3702999949 0.06109999865 -0.5735999942 -0.4429999888 0.1497000009 -0.4735000134 -0.2316000015 0.01489999983 -0.5256999731 -0.5954999924 -0.02339999937 -0.6631000042 -0.6915000081 -0.01279999968 -0.5856000185 -0.6050000191 0.001000000047 -0.793200016 -0.7304000258 0.0449000001 -0.8537999988 -0.738499999 -0.01499999966 -0.9944999814 -0.7030000091 0.05160000175 -1.094599962 -0.7416999936 0.2012999952 -0.8594999909 -0.7717999816 0.2545000017 -0.7195000052 -0.6136000156 0.264200002 -0.9131000042 -0.7886999846 -0.1386000067 -1.002300024 -0.8057000041 -0.2026000023 -1.132699966 -0.954400003 -0.2138999999 -1.176399946 -1.031399965 -0.2879000008 -1.074100018 -1.011600018 -0.06870000064 -1.203199983 -0.7426999807 -0.3382000029 -1.138000011 -0.7322000265 -0.4059999883 -1.035099983 -0.698300004 -0.3781999946 -1.257300019 -0.6409000158 -0.5144000053 -1.276600003 -0.5296999812 -0.4975999892 -1.377599955 -0.554099977 -0.4496000111 -1.488600016 -0.7373999953 -0.6201999784 -1.33070004 -0.7555999756 -0.5990999937 -1.335700035 -0.8600000143 -0.6453999877 -1.251600027 -0.7239000201 -0.7365000248 -1.388700008 -0.8729000092 -0.7268000245 -1.141800046 -0.641200006 -0.8278999925 -1.332900047 -0.9894999862 -0.591899991 -1.278399944 -0.7850999832 -0.8015000224 -1.501299977 -1.003399968 -0.725399971 -1.097900033 -0.6401000023 -0.9430999756 -1.406700015 -1.076799989 -0.6424000263 -1.179100037 -0.7289999723 -0.9308000207 -1.509799957 -1.040099978 -0.5026000142 -1.375 -0.8797000051 -0.7623999715 -1.596400023 -1.212499976 -0.6079999804 -1.174499989 -0.7623000145 -1.020300031 -1.610100031 -1.176900029 -0.4713000059 -1.372099996 -0.9126999974 -0.851000011 -1.695799947 -1.260499954 -0.522300005 -1.271499991 -0.8549000025 -0.9787999988 -1.701699972 -0.4088999927 -0.5386000276 -1.339300036 -0.2944000065 -0.5289000273 -1.434000015 -0.1780000031 -0.6162999868 -1.385400057 -0.2176000029 -0.7626000047 -1.381700039 -0.2430000007 -0.8119999766 -1.520599961 -0.1063999981 -0.8446000218 -1.312600017 -0.2457000017 -0.3844999969 -1.444700003 -0.235499993 -0.318599999 -1.346699953 -0.2205000073 -0.3350000083 -1.566100001 -0.1779000014 -0.1943999976 -1.583400011 -0.2084999979 -0.1571999937 -1.727900028 -0.152700007 -0.2182999998 -1.824200034 -0.02360000089 -0.1758999974 -1.559999943 0.01799999923 -0.02899999917 -1.555899978 -0.0549999997 0.07559999824 -1.503700018 0.140200004 0.03020000085 -1.608899951 0.01389999967 0.1948000044 -1.518700004 0.1351000071 0.1687999964 -1.580299973 0.2542999983 -0.02209999971 -1.672299981 0.2365999967 0.2574000061 -1.618600011 0.3573000133 0.06570000201 -1.709400058 0.3449999988 0.2055999935 -1.685400009 -0.2890999913 -0.05389999971 -1.742200017 -0.3106000125 0.005700000096 -1.874899983 -0.2610000074 0.1485999972 -1.875 -0.1093000025 0.1629000008 -1.860599995 -0.02820000052 0.1000000015 -1.974900007 -0.0754000023 0.3111000061 -1.83739996 -0.4580000043 0.007699999958 -1.913499951 -0.5491999984 0.03280000016 -1.828299999 -0.4846000075 -0.02160000056 -2.040499926 -0.4821000099 -0.01040000003 -2.043299913 -0.6223999858 -0.01520000026 -2.089900017 -0.6187000275 -0.01290000044 -2.095700026 -0.6352999806 -0.1072999984 -2.210900068 -0.6330000162 -0.1088000014 -2.21329999 -0.5995000005 -0.07090000063 -2.325500011 -0.5995000005 -0.07590000331 -2.328700066 -0.6668999791 0.128700003 -2.117500067 -0.6730999947 0.1272000074 -2.125400066 -0.8077999949 0.1440999955 -2.177400112 -0.7677999735 0.1718000025 -2.016599894 -0.8367999792 0.2037999928 -2.29640007 -0.7332000136 0.2157000005 -1.891499996 -0.9322999716 0.09870000184 -2.124900103 -0.9106000066 0.1638000011 -2.01699996 -0.9714000225 0.2036000043 -2.318500042 -0.845600009 0.2407999933 -1.816900015 -1.032299995 0.1351000071 -2.217700005 -0.9555000067 0.2075999975 -1.891000032 -0.9704999924 0.03159999847 -2.008100033 -1.005100012 0.1259000003 -2.112400055 -1.166599989 0.1076999977 -2.197299957 -1.089599967 0.2172999978 -1.859599948 -1.104500055 0.002400000114 -1.989300013 -1.137899995 0.1327999979 -2.078999996 -1.200799942 0.0410999991 -2.082799911 -1.17869997 0.177699998 -1.95449996 -0.6783999801 -0.2289000005 -2.179800034 -0.704400003 -0.3361000121 -2.277400017 -0.8273000121 -0.4183999896 -2.237299919 -0.9545000196 -0.3373999894 -2.203399897 -1.072399974 -0.4264999926 -2.171299934 -0.9902999997 -0.2404000014 -2.31069994 -0.5860000253 -0.4298999906 -2.285200119 -0.5399000049 -0.481400013 -2.182800055 -0.53549999 -0.4550999999 -2.405999899 -0.4226000011 -0.5436999798 -2.417700052 -0.3454000056 -0.5059000254 -2.54189992 -0.4041999876 -0.5052000284 -2.650599957 -0.4681000113 -0.6877999902 -2.432699919 -0.3619000018 -0.7858999968 -2.392199993 -0.2502000034 -0.8210999966 -2.460400105 -0.3612999916 -0.8626000285 -2.271399975 -0.1753000021 -0.9106000066 -2.386899948 -0.244599998 -0.9417999983 -2.272799969 -0.4492999911 -0.8712999821 -2.161099911 -0.2124000043 -1.028900027 -2.167900085 -0.4176000059 -0.9592999816 -2.055999994 -0.2994000018 -1.035699964 -2.060100079 -0.1499000043 -0.3932000101 -2.647700071 -0.1354999989 -0.3806000054 -2.601799965 -0.2269999981 -0.4453999996 -2.535399914 -0.222299993 -0.4632000029 -2.519500017 -0.01379999984 -0.4627999961 -2.664700031 -0.007899999619 -0.4546000063 -2.645499945 -0.0401000008 -0.6061999798 -2.654500008 -0.04160000011 -0.5212000012 -2.770699978 -1.241799951 -0.8195000291 -1.52639997 -1.370900035 -0.1212000027 -1.621899962 -1.467599988 -0.1240999997 -1.503000021 -1.204399943 -0.7247999907 -1.640100002 -1.431200027 -0.1796000004 -1.749600053 -1.396600008 -0.1291999966 -1.368800044 -1.639099956 0.07280000299 -0.5762000084 -1.326900005 -0.6517000198 -1.695600033 -1.348899961 -0.2991000116 -1.803900003 -1.483700037 -0.08079999685 -1.251199961 -1.297399998 -0.5990999937 -1.836400032 -1.427399993 -0.3898999989 -1.876999974 -1.416599989 0.007300000172 -1.14349997 -1.405300021 -0.5286999941 -1.890200019 -1.504099965 0.004499999806 -1.018399954 -1.445500016 0.07090000063 -0.8895999789 -1.590000033 0.2741000056 -0.4499999881 -1.603399992 0.1226999983 -0.4365999997 -1.66260004 0.03209999949 -0.8131999969 -1.559000015 0.09470000118 -0.7911999822 -1.524600029 0.0848999992 -0.6517999768 -1.707399964 0.08709999919 -0.3447000086 -1.545799971 0.3274999857 -0.3230000138 -0.9388999939 -1.104799986 -0.757700026 -0.9872999787 -1.191100001 -1.356299996 -0.9581999779 -1.096400023 -1.237499952 -0.9883000255 -1.168499947 -1.106299996 -0.9749000072 -1.211300015 -0.5333999991 -0.8751000166 -1.170699954 -0.6377000213 -1.003000021 -0.9858999848 -0.9563000202 -0.942900002 -1.091500044 -0.9825999737 -0.9517999887 -1.180799961 -0.8690999746 -0.787899971 -1.275200009 -0.6786999702 -0.8999999762 -1.249899983 -0.4183999896 -1.193600059 -0.1624000072 -2.700700045 -1.270599961 -0.5989000201 -2.537699938 -1.326699972 -0.457100004 -2.52670002 -0.9667999744 -0.04580000043 -2.712899923 -1.099499941 -0.05689999834 -2.638299942 -1.382500052 -0.3779999912 -2.719399929 -1.284100056 -0.3729000092 -2.646699905 -1.267699957 -0.2343000025 -2.611099958 -1.159100056 0.07329999655 -2.634000063 -0.8593999743 -0.04360000044 -2.6171 -1.031999946 0.1809999943 -3.249300003 -1.322700024 0.4052000046 -0.2953000069</positions>
+  </configuration>
+  <site_property id="occupancy" name="occupancy" units="">
+    <universe ref="universe"/>
+    <data shape="" type="float32">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6999999881 0.3000000119 0.6999999881 0.3000000119 0.6999999881 0.3000000119 0.6999999881 0.3000000119 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.5 0.5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6000000238 0.400000006 1 1 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 1 1 0.5 0.5 0.5 0.5 0.5 0.5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 0.6000000238 0.400000006 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</data>
+  </site_property>
+  <site_property id="isotropic_displacement_parameter" name="isotropic_displacement_parameter" units="nm2">
+    <universe ref="universe"/>
+    <data shape="" type="float32">0.003922396339 0.004014851991 0.003509512404 0.003961658105 0.004002186935 0.004404938314 0.004392273258 0.004422669765 0.004355544224 0.003589303 0.003401858732 0.003401858732 0.003152355319 0.003182751592 0.003260008991 0.003108027391 0.003001640085 0.003443653695 0.002693876857 0.002658414654 0.002802797128 0.00334359915 0.003002906684 0.003506979439 0.002288592281 0.002326587681 0.001735125319 0.001868109335 0.001724993112 0.001694596838 0.002046687994 0.001664200448 0.001604674268 0.001651535276 0.001792118419 0.001755389501 0.002054286888 0.00178325281 0.001481822343 0.002006159397 0.001599608222 0.001594542176 0.001527416869 0.00161733944 0.001651535276 0.001830113935 0.001936501125 0.002310123062 0.002259462373 0.001513485215 0.001614806359 0.001580610522 0.002362050116 0.0021910707 0.001819981728 0.001855444163 0.001485621906 0.001565412269 0.001471690135 0.001516018179 0.001594542176 0.00190103869 0.001875708462 0.001799717546 0.002068218775 0.002155608265 0.002454505768 0.002574824495 0.00297757634 0.002572291531 0.001200656057 0.001247517066 0.001495753997 0.001592009095 0.0023050569 0.001857977244 0.001243717503 0.001327307546 0.00103474257 0.001161394059 0.001450159471 0.00132984051 0.001372902072 0.001399498899 0.001637603622 0.001252583112 0.001885840553 0.001579343923 0.001532482915 0.001545148087 0.001626205049 0.001533749397 0.001003079698 0.00128044642 0.00112213206 0.0018706423 0.00195296586 0.00188204099 0.00120192254 0.001442560344 0.001357703819 0.001414697035 0.001685731229 0.001760455547 0.001584409969 0.001640136703 0.002298724372 0.001668000012 0.002772400854 0.002391180024 0.002046687994 0.002587489784 0.002820528345 0.002926915651 0.00161733944 0.001573011396 0.001854177681 0.002072018106 0.002807863289 0.002218934009 0.001918769907 0.001804783591 0.001443826826 0.001806050073 0.001702195848 0.001990961144 0.001965631032 0.002814195817 0.003688091179 0.002995307557 0.003639963455 0.003550041001 0.003686824581 0.003685557982 0.0041946969 0.003677958855 0.001946633216 0.001669266494 0.002137877047 0.00225566281 0.001927635516 0.001743990928 0.001803517109 0.001951699262 0.002145476174 0.002601421438 0.002479835879 0.002080883831 0.002107480541 0.001664200448 0.001589476014 0.001469157171 0.001345038763 0.001104400959 0.001440027379 0.00162493845 0.001876974944 0.001559079741 0.001361503382 0.001432428253 0.001681931666 0.002118879231 0.001987161813 0.002544428222 0.001600874704 0.001523617306 0.001519817743 0.001676865621 0.001627471531 0.002037822269 0.001711061457 0.001579343923 0.001464091125 0.001594542176 0.001490687951 0.001619872404 0.001393166254 0.001450159471 0.00149955356 0.001785785891 0.001673066057 0.001811116119 0.001546414569 0.001707261894 0.001766788191 0.00202135765 0.001958031906 0.002259462373 0.002289858647 0.001632537576 0.001638870104 0.001932701562 0.002503899857 0.00250136666 0.001697129803 0.001884574071 0.001185457804 0.001255116193 0.001175325713 0.001389366691 0.0013792346 0.001304510282 0.001289312029 0.001516018179 0.001732592238 0.001756655984 0.002044154797 0.001592009095 0.002101148013 0.002013758523 0.001177858794 0.001298177638 0.001285512466 0.001727526193 0.002221466973 0.003213148098 0.001551480615 0.001564145787 0.00153754896 0.001760455547 0.001861776807 0.002112546703 0.002272127429 0.003376528388 0.004080710467 0.00436440995 0.004868482705 0.004632911179 0.004905211739 0.004869749304 0.004860883579 0.004982469138 0.001699662884 0.001771854237 0.00198336225 0.001912437379 0.00209734845 0.001871908898 0.001666733413 0.001784519292 0.001641403185 0.001837712945 0.002117612632 0.001989694778 0.001769321156 0.001650268794 0.00184404559 0.001709794975 0.002177139046 0.001980829053 0.002489968203 0.002628018148 0.002897785744 0.002886387287 0.001890906598 0.002104947576 0.002367116045 0.002519097878 0.003700756235 0.003257476026 0.002320255153 0.002140410012 0.00238738046 0.0026824784 0.002956045559 0.003368929261 0.002855990781 0.004160501063 0.005097722169 0.004686104599 0.005476410035 0.005457412452 0.005466277711 0.005781639833 0.005699316505 0.005871562753 0.003699489636 0.003262542188 0.003713421291 0.003752683289 0.001566678751 0.00221766741 0.001847845037 0.001769321156 0.001562879304 0.002125211759 0.002184737939 0.002155608265 0.002148009138 0.001505886088 0.001731325756 0.001774387201 0.001579343923 0.001768054673 0.001800984028 0.001857977244 0.001704728929 0.00186304329 0.001551480615 0.001699662884 0.00165533484 0.002279726556 0.002663480584 0.002091015922 0.00169333024 0.001645202748 0.001460291562 0.001343772165 0.001590742613 0.001429895172 0.001627471531 0.001621138887 0.001728792675 0.002026423579 0.002121412195 0.002282259753 0.001792118419 0.001799717546 0.001223453321 0.001500820043 0.00142862869 0.001422296162 0.001822514809 0.001422296162 0.001423562644 0.001742724329 0.001391899772 0.001484355307 0.001331106992 0.001237384975 0.001376701635 0.0013412392 0.001414697035 0.00108413666 0.001514751697 0.001531216432 0.001607207232 0.001336173154 0.001165193622 0.001098068315 0.00113353075 0.001236118493 0.001459025079 0.001155061531 0.001584409969 0.001388100209 0.00164393615 0.001494487515 0.001742724329 0.00158694305 0.002212601248 0.001686997712 0.001826314372 0.001090469188 0.001229785848 0.001419763081 0.001612273278 0.002165740356 0.002153075067 0.001234851894 0.001323507982 0.001138596795 0.00108413666 0.00129184511 0.001303243684 0.00120192254 0.001766788191 0.002450706204 0.002738205018 0.002410177607 0.002930715214 0.002842059126 0.00312449201 0.003513311967 0.00343098864 0.001111999969 0.001263981801 0.001400765381 0.00169586332 0.001920036389 0.001731325756 0.001451425953 0.001355170854 0.001274113893 0.001289312029 0.001177858794 0.001262715203 0.001441293862 0.001684464631 0.00184404559 0.002324054716 0.002172072884 0.0027964646 0.002159407828 0.002591289347 0.002473503351 0.002768601291 0.001238651457 0.001299444237 0.001350104809 0.00161733944 0.001880774507 0.002027690178 0.001476756297 0.001432428253 0.001343772165 0.001609740313 0.001869375817 0.002051753923 0.001642669667 0.001956765307 0.002491234569 0.001965631032 0.002754669636 0.002245530719 0.002286059316 0.002272127429 0.002516564913 0.002199936192 0.002991507994 0.002256929409 0.003351198044 0.003916063812 0.001760455547 0.001792118419 0.001462824643 0.001551480615 0.001809849637 0.002223999938 0.001819981728 0.002018824685 0.00221766741 0.001423562644 0.001242451021 0.001619872404 0.00151855126 0.001364036463 0.001399498899 0.001480555744 0.001641403185 0.001608473831 0.001595808659 0.001771854237 0.00171486102 0.002902851906 0.004321348388 0.004057913553 0.001778186765 0.001845312072 0.001619872404 0.001635070657 0.00164393615 0.002454505768 0.002148009138 0.001374168554 0.001467890688 0.001746523893 0.00167433254 0.002110013738 0.001589476014 0.001888373517 0.001380501082 0.001485621906 0.001635070657 0.001594542176 0.001754123019 0.001903571771 0.002187271137 0.001407097909 0.001512218616 0.001822514809 0.00207075174 0.001718660584 0.001395699335 0.001305776765 0.001080337097 0.001290578628 0.001540082041 0.001704728929 0.001612273278 0.001597075141 0.001528683351 0.001686997712 0.001622405485 0.001570478315 0.001955498941 0.002093548886 0.001797184465 0.002220200375 0.001731325756 0.002106214175 0.002064419212 0.001790851937 0.001966897398 0.002051753923 0.002129011322 0.002148009138 0.001651535276 0.002088482957 0.001333640073 0.001256382675 0.001168993185 0.001434961217 0.001985895215 0.002358250553 0.001124665141 0.001177858794 0.001042341697 0.001041075215 0.001277913456 0.001326040947 0.001009412343 0.001361503382 0.001811116119 0.001431161771 0.001781986328 0.001521084225 0.001352637773 0.001440027379 0.001604674268 0.0017946515 0.001372902072 0.001400765381 0.001485621906 0.001768054673 0.002051753923 0.002139143413 0.001657867921 0.001455225516 0.0013792346 0.001583143487 0.001524883788 0.001789585454 0.001436227816 0.001635070657 0.001736391801 0.001814915682 0.001641403185 0.001918769907 0.001535015879 0.002658414654 0.002476036316 0.002987708431 0.002643216401 0.002169539919 0.002782532945 0.003176419064 0.002041621832 0.002768601291 0.002762268763 0.002839526162 0.002962378087 0.002174605848 0.003195416881 0.002099881647 0.002859790344 0.002115079667 0.001478022779 0.001765521592 0.002034022706 0.002311389428 0.002439307515 0.00255076075 0.002056820085 0.001885840553 0.001760455547 0.001982095651 0.001992227742 0.001770587638 0.002263261937 0.003133357503 0.004116172902 0.004054113757 0.004584783688 0.004121239297 0.004392273258 0.00467723934 0.004662041087 0.004413804039 0.002051753923 0.002045421395 0.001808583154 0.001831380418 0.002110013738 0.002194870031 0.002016291488 0.002365849679 0.006804984063 0.004895079881 0.003710888326 0.006680865772 0.005302897654 0.004207361955 0.00369822327 0.006283179857 0.005880428012 0.003510779003 0.006305977236 0.006397166289 0.0036652938 0.006385767367 0.003489248222 0.003696956672 0.003867936088 0.004023717716 0.00328280637 0.003612100147 0.003289138898 0.004613913596 0.005019198172 0.004197230097 0.005259836093 0.004914077464 0.004446733277 0.004344145767 0.004429002292 0.004539188929 0.004470797256 0.004192164168 0.004375808407 0.005126852077 0.006574478466 0.006226186641 0.006166660693 0.006398432888 0.006584610324 0.006040009204 0.006112200208 0.006300911307 0.00725839613 0.006879708264 0.003799544415 0.00381220947</data>
+  </site_property>
+</mosaic>

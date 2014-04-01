@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosaic version="1.0">
+  <universe cell_shape="infinite" convention="PDB" id="universe">
+    <molecules>
+      <molecule count="1">
+        <fragment label="peptide" polymer_type="polypeptide" species="alanine_dipeptide">
+          <fragments>
+            <fragment label="ALA1" species="alanine_nter">
+              <atoms>
+                <atom label="H1" name="H" type="element"/>
+                <atom label="H2" name="H" type="element"/>
+                <atom label="H3" name="H" type="element"/>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="HA" name="H" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="HB1" name="H" type="element"/>
+                <atom label="HB2" name="H" type="element"/>
+                <atom label="HB3" name="H" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N H1" order="single"/>
+                <bond atoms="N H2" order="single"/>
+                <bond atoms="N H3" order="single"/>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA HA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="C O" order="double"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CB HB1" order="single"/>
+                <bond atoms="CB HB2" order="single"/>
+                <bond atoms="CB HB3" order="single"/>
+              </bonds>
+            </fragment>
+            <fragment label="ALA2" species="alanine_cter">
+              <atoms>
+                <atom label="H" name="H" type="element"/>
+                <atom label="N" name="N" type="element"/>
+                <atom label="CA" name="C" type="element"/>
+                <atom label="HA" name="H" type="element"/>
+                <atom label="C" name="C" type="element"/>
+                <atom label="O" name="O" type="element"/>
+                <atom label="OXT" name="O" type="element"/>
+                <atom label="CB" name="C" type="element"/>
+                <atom label="HB1" name="H" type="element"/>
+                <atom label="HB2" name="H" type="element"/>
+                <atom label="HB3" name="H" type="element"/>
+              </atoms>
+              <bonds>
+                <bond atoms="N H" order="single"/>
+                <bond atoms="N CA" order="single"/>
+                <bond atoms="CA HA" order="single"/>
+                <bond atoms="CA C" order="single"/>
+                <bond atoms="C O" order="single"/>
+                <bond atoms="C OXT" order="single"/>
+                <bond atoms="CA CB" order="single"/>
+                <bond atoms="CB HB1" order="single"/>
+                <bond atoms="CB HB2" order="single"/>
+                <bond atoms="CB HB3" order="single"/>
+              </bonds>
+            </fragment>
+          </fragments>
+          <bonds>
+            <bond atoms="ALA1.C ALA2.N" order="single"/>
+          </bonds>
+        </fragment>
+      </molecule>
+    </molecules>
+  </universe>
+</mosaic>
