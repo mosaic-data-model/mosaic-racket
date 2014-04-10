@@ -1,6 +1,74 @@
 #lang racket
 
-(provide (all-defined-out))
+(provide mosaic-version-major
+         mosaic-version-minor
+
+         universe?
+         universe.cell-shape
+         universe.symmetry-transformations
+         universe.convention
+         universe.molecules
+         universe.compare
+         universe.equivalent?
+         universe.diffs
+
+         node?
+         node.label
+
+         fragment?
+         fragment.species
+         fragment.subfragments
+         fragment.atoms
+         fragment.lookup-node
+         fragment.bonds
+         fragment.polymer?
+         fragment.polymer-type
+         fragment.compare
+         fragment.equivalent?
+         fragment.diffs
+
+         atom?
+         atom.type
+         atom.name
+         atom.nsites
+         atom.compare
+         atom.equivalent?
+         atom.diffs
+         
+         configuration?
+         configuration.universe
+         configuration.positions
+         configuration.cell-parameters
+         configuration.number-type
+         configuration.compare
+         configuration.equivalent?
+         configuration.diffs
+
+         in-atoms
+         in-atoms-with-indices
+         in-sites-with-indices
+         number-of-atoms
+         number-of-sites
+         
+         compare
+         equivalent?
+         diffs
+
+         gen:universe
+         gen:node
+         gen:fragment
+         gen:atom
+         gen:configuration
+         
+         fragment-lookup-node
+         fragment-lookup-path       
+         fragment-dict-ref
+         fragment-dict-count
+         fragment-dict-iterate-first
+         fragment-dict-iterate-next
+         fragment-dict-iterate-value
+         fragment-dict-iterate-key
+         )
 
 (require racket/generic
          racket/stream
