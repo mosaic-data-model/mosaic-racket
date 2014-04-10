@@ -149,11 +149,21 @@
   ; Generic utility functions
 
   (let ([da (fragment "da" di-alanine)])
-    (check-equal? (sequence->list (interface:atom-sequence da))
+    (check-equal? (sequence->list (interface:in-atoms da))
                   (append (interface:fragment.atoms
                            (interface:fragment.lookup-node da "ALA1"))
                           (interface:fragment.atoms
                            (interface:fragment.lookup-node da "ALA2"))))
+    (check-equal? (sequence->list (interface:in-atoms-with-indices da))
+                  (map list (sequence->list (interface:in-atoms da))
+                            (sequence->list
+                             (in-range (interface:number-of-atoms da)))))
+    (check-equal? (sequence->list (interface:in-sites-with-indices da))
+                  (map list (sequence->list (interface:in-atoms da))
+                            (sequence->list
+                             (in-range (interface:number-of-atoms da)))
+                            (sequence->list
+                             (in-range (interface:number-of-atoms da)))))
     (check-equal? (interface:number-of-atoms da) 23)
     (check-equal? (interface:number-of-sites da) 23))
 

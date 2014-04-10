@@ -225,7 +225,7 @@
 
 ; Utility functions defined in terms of the interface functions
 
-(define (atom-sequence ms)
+(define (in-atoms ms)
   (define (fragment-atom-sequence fragment)
     (stream-append
       (apply stream-append
@@ -246,11 +246,30 @@
    [(fragment? ms) (fragment-atom-sequence ms)]
    [(universe? ms) (universe-atom-sequence ms)]))
 
+(define (in-atoms-with-indices ms)
+  (in-generator
+   (for ([a (in-atoms ms)]
+         [i (in-naturals)])
+     (yield (list a i)))))
+
+(define (~in-sites ms)
+  (in-generator
+   (for ([a (in-atoms ms)]
+         [i (in-naturals)])
+     (for ([n (in-range (atom.nsites a))])
+       (yield (list a i))))))
+
+(define (in-sites-with-indices ms)
+  (in-generator
+   (~for ([($list a ai)  (~in-sites ms)]
+          [si (in-naturals)])
+     (yield (list a ai si)))))
+
 (define (number-of-atoms ms)
-  (sequence-length (atom-sequence ms)))
+  (sequence-length (in-atoms ms)))
 
 (define (number-of-sites ms)
-  (sequence-fold + 0 (sequence-map atom.nsites (atom-sequence ms))))
+  (sequence-fold + 0 (sequence-map atom.nsites (in-atoms ms))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
